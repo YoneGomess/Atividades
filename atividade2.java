@@ -159,8 +159,3 @@ public class atividade2 {
 
  
 }
-
-/* Professor a minha primeira atividade foi com o author Alan, pois estou utilizando o pc de um amigo para fazer as atividades,
-pois o meu está em manutenção, só notei o erro após ter enviado e iniciado a segunda atividade
-*/
-
