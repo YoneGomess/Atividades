@@ -1,0 +1,166 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package atividades;
+import java.util.*;
+/**
+ *
+ * @author Yone
+ */
+public class atividade2 {
+
+        @SuppressWarnings("empty-statement")
+
+        public static void main(String[] args) {
+
+        ArrayList lista = new ArrayList<>(5);
+
+          System.out.println("Passo 1: Insira os números [1, 2, 3, 4 e 5] em uma LISTA - com 5 células;");
+
+          for (int i=1;i<=5;i++){
+
+           lista.add(i);
+
+        }
+
+         System.out.println(lista);
+
+        System.out.println("--------------------------------------------");
+
+
+
+          System.out.println("Passo 2: Remova todos os dados da LISTA");
+
+           System.out.println("Deve-se sempre remover os dados da célula inicial da lista");
+
+          while(!lista.isEmpty()) {
+
+            lista.remove(0);
+
+               System.out.println(lista);
+
+        }
+
+           System.out.println("--------------------------------------------");
+
+
+
+           System.out.println("Passo 2: insira-os em uma PILHA - com 5 células");
+
+          Stack<Integer> pilha = new Stack<Integer>();
+
+        for (int i=1;i<=5;i++){
+
+           pilha.push(i);
+
+        }
+
+           System.out.println(pilha);
+
+           System.out.println("--------------------------------------------");
+
+           System.out.println("Passo 3: Remove os dados da PILHA");
+
+           pilha.clear();
+
+           System.out.println(pilha);
+
+           System.out.println("--------------------------------------------");
+
+
+
+           System.out.println("Passo 3: insira-os em uma FILA - com 10 células)");
+
+           ArrayDeque fila = new ArrayDeque<>(10);
+
+          for (int i=1;i<=5;i++){
+
+           fila.push(i);
+
+        }
+
+           System.out.println(fila);
+
+           System.out.println("--------------------------------------------");
+
+
+
+           System.out.println("Passo 4: Insira os números [6, 7, 8, 9 e 10] na LISTA");
+
+          for (int i=6;i<=10;i++){
+
+           lista.add(i);
+
+        }
+
+           System.out.println(lista);
+
+           System.out.println("--------------------------------------------");
+
+
+
+           System.out.println("Passo 5: Repita os passos 2 e 3");
+
+          System.out.println("Passo 2: Remova todos os dados da LISTA");
+
+           System.out.println("Deve-se sempre remover os dados da célula inicial da lista");
+
+          while(!lista.isEmpty()) {
+
+            lista.remove(0);
+
+            System.out.println(lista);
+
+        }
+
+           System.out.println("--------------------------------------------");
+
+
+
+           System.out.println("Passo 2: insira-os em uma PILHA - com 5 células");
+
+        for (int i=6;i<=10;i++){
+
+           pilha.push(i);
+
+        }
+
+           System.out.println(pilha);
+
+           System.out.println("--------------------------------------------");
+
+           System.out.println("Passo 3: Remove os dados da PILHA");
+
+           pilha.clear();
+
+           System.out.println(pilha);
+
+           System.out.println("--------------------------------------------");
+
+
+
+           System.out.println("Passo 3: insira-os em uma FILA - com 10 células)");
+
+          for (int i=6;i<=10;i++){
+
+           fila.push(i);
+
+        }
+
+           System.out.println("Passo 6: Exiba todos os números que foram inseridos na FILA");
+
+           System.out.println(fila);
+
+           System.out.println("--------------------------------------------");
+
+        }
+
+ 
+}
+
+/* Professor a minha primeira atividade foi com o author Alan, pois estou utilizando o pc de um amigo para fazer as atividades,
+pois o meu está em manutenção, só notei o erro após ter enviado e iniciado a segunda atividade
+*/
+
